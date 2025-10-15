@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Throttle & Grind — Born from Ashes. Driven by Grit.</title>
+  <meta name="description" content="Throttle & Grind — motorcycle lifestyle: rides, builds, and the brotherhood.">
+  <style>
+    /* Reset */
+    *{box-sizing:border-box;margin:0;padding:0}
+    html,body{height:100%}
+    body{font-family:Inter,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial;line-height:1.45;background:#F5E8C7;color:#0F0F0F}
+    .wrap{max-width:1100px;margin:0 auto;padding:28px}
+
+    /* Hero */
+    .hero{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:56px 18px}
+    .logo{max-width:300px;height:auto;margin-bottom:18px}
+    .tagline{font-family:Georgia,'Times New Roman',serif;font-size:22px;margin-bottom:10px;color:#0F0F0F}
+    .sub{color:#333;font-size:15px;margin-bottom:18px;max-width:780px}
+    .cta{background:#0F0F0F;color:#fff;padding:10px 16px;border-radius:6px;text-decoration:none;font-weight:700}
+
+    /* Sections */
+    section{padding:42px 0;border-top:1px solid rgba(0,0,0,0.04)}
+    h2{font-family:Georgia,serif;font-size:20px;margin-bottom:14px}
+    p.lead{color:#222}
+
+    /* About */
+    .about{display:grid;grid-template-columns:1fr;gap:16px}
+    @media(min-width:860px){.about{grid-template-columns:1fr 380px}}
+    .card{background:rgba(0,0,0,0.02);padding:18px;border-radius:8px}
+
+    /* Merch teaser */
+    .merch{display:flex;flex-direction:column;align-items:center;gap:12px}
+    .merch-grid{display:grid;grid-template-columns:1fr;gap:12px;width:100%}
+    @media(min-width:720px){.merch-grid{grid-template-columns:repeat(2,1fr)}}
+    .merch-item{background:#fff;padding:12px;border-radius:8px;text-align:center;box-shadow:0 6px 18px rgba(0,0,0,0.04)}
+    .merch-item img{width:100%;height:180px;object-fit:cover;border-radius:6px}
+
+    /* Gallery */
+    .gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+    @media(min-width:860px){.gallery{grid-template-columns:repeat(4,1fr)}}
+    .gallery img{width:100%;height:150px;object-fit:cover;border-radius:6px}
+
+    /* Newsletter (title only) */
+    .newsletter{display:flex;flex-direction:column;align-items:center;gap:8px}
+
+    /* Socials */
+    .socials{display:flex;gap:14px;justify-content:center;margin-top:8px}
+    .socials a{color:#0F0F0F;text-decoration:none;font-weight:700}
+
+    footer{padding:28px 0;text-align:center;color:#333}
+
+    @media(max-width:520px){.hero{padding:28px}.logo{max-width:220px}.tagline{font-size:18px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <!-- HERO -->
+    <header class="hero" id="home">
+      <!-- logo.png should be uploaded alongside this file -->
+      <img src="logo.png" alt="Throttle & Grind" class="logo">
+      <div class="tagline">Born from Ashes. Driven by Grit.</div>
+      <div class="sub">Throttle & Grind captures the grit, freedom, and brotherhood of the open road — the rides, the builds, and the stories that bind riders together.</div>
+      <a href="#about" class="cta">Explore the Story</a>
+    </header>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="wrap">
+        <h2>About</h2>
+        <div class="about">
+          <div class="card">
+            <p class="lead"><strong>Throttle & Grind</strong> was built on grit, freedom, and brotherhood — the unfiltered spirit of riders who live for the open road.</p>
+            <p>We honor vintage craftsmanship, the art of the build, and the miles that define every rider’s story. Our mission is simple: to fuel the culture of real riders through authentic storytelling, presence, and timeless design.</p>
+            <p>Respect. Ride. Repeat.</p>
+          </div>
+
+          <aside class="card" style="text-align:center">
+            <h3 style="margin-bottom:6px">Foundation</h3>
+            <p class="small">Phase 1 — Recognition & Presence</p>
+            <p style="margin-top:8px;">Build recognition through authentic presence at rallies, shows, and local rides. Focus on collectible, low-volume merch and genuine storytelling.</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- MERCH TEASER (MID PAGE) -->
+    <section id="merch">
+      <div class="wrap">
+        <h2>Merch — Coming Soon</h2>
+        <p class="muted">Limited drops, quality-first. Timeless designs crafted for the road.</p>
+        <div class="merch" style="margin-top:12px">
+          <div class="merch-grid">
+            <div class="merch-item">
+              <img src="https://via.placeholder.com/800x480?text=TG+Shirt" alt="shirt">
+              <h4 style="margin-top:8px">Classic Tee — Coming Soon</h4>
+              <p class="small">Vintage cream logo on a durable tee — limited first run.</p>
+            </div>
+            <div class="merch-item">
+              <img src="https://via.placeholder.com/800x480?text=Patch+Mockup" alt="patch">
+              <h4 style="margin-top:8px">Collectible Patch</h4>
+              <p class="small">Embroidered, made to age with your jacket.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LIFESTYLE GALLERY -->
+    <section id="gallery">
+      <div class="wrap">
+        <h2>The Ride. The Build. The Brotherhood.</h2>
+        <p class="muted">A visual slice of what Throttle & Grind celebrates — replace these with your photos.</p>
+        <div class="gallery" style="margin-top:12px">
+          <img src="https://via.placeholder.com/600x400?text=Ride+1" alt="g1">
+          <img src="https://via.placeholder.com/600x400?text=Build+1" alt="g2">
+          <img src="https://via.placeholder.com/600x400?text=Ride+2" alt="g3">
+          <img src="https://via.placeholder.com/600x400?text=Build+2" alt="g4">
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER (title only) -->
+    <section id="newsletter">
+      <div class="wrap">
+        <h2>Join the Brotherhood</h2>
+        <p class="muted">Stay tuned for drops, ride announcements, and stories from the road.</p>
+        <div class="newsletter" style="margin-top:12px">
+          <!-- No form yet — placeholder for future signup integration -->
+          <div class="muted">Newsletter signup coming soon.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOCIALS + FOOTER -->
+    <section id="socials">
+      <div class="wrap center">
+        <h2>Connect</h2>
+        <div class="socials">
+          <a href="https://instagram.com/throttleandgrind" target="_blank">Instagram</a>
+          <a href="https://youtube.com/@throttleandgrindco" target="_blank">YouTube</a>
+          <a href="https://tiktok.com/@throttleandgrindco" target="_blank">TikTok</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="wrap">
+        <div style="font-weight:700">Throttle &amp; Grind</div>
+        <div class="muted" style="margin-top:6px">Built for the road.</div>
+        <div style="margin-top:12px;color:#777;font-size:13px">&copy; 2025 Throttle &amp; Grind — All rights reserved</div>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    // Smooth scroll for internal links
+    document.querySelectorAll('a[href^="#"]').forEach(function(a){
+      a.addEventListener('click', function(e){
+        var target = document.querySelector(this.getAttribute('href'));
+        if(target){ e.preventDefault(); target.scrollIntoView({behavior:'smooth'}); }
+      });
+    });
+  </script>
+</body>
+</html>
